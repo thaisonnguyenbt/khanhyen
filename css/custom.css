@@ -1,0 +1,53 @@
+.background-music-bottom-left {
+  right: auto;
+  left: 10px;
+}
+.background-music {
+  position: fixed;
+  z-index: 999;
+  bottom: 10px;
+  right: 10px;
+}
+
+.background-music-bottom-left .background-music-toggle {
+  right: auto;
+  left: 0;
+}
+.background-music-toggle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 38px;
+  text-align: center;
+  background-color: #b4d2c8;
+  border-color: #b4d2c8;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.background-music-embed {
+  position: absolute;
+  left: 0;
+  bottom: -999em;
+  width: 300px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.background-music-toggle.active ~ .background-music-embed {
+  bottom: 40px;
+  opacity: 1;
+  visibility: visible;
+}
