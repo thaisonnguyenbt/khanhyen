@@ -60,3 +60,11 @@
 .banner_bottom {
   height: 1000px;
 }
+
+span.banner-text_city {
+  padding-top: 10px;
+}
+
+span.banner-text_date {
+  padding-top: 10px;
+}
