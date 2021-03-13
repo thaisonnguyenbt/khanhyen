@@ -69,3 +69,73 @@ span.banner-text_city {
 span.banner-text_date {
   padding-top: 10px;
 }
+a.link-map:hover {
+  color: blue;
+}
+.wedding-section .cols-wrapper {
+  margin-bottom: 45px;
+}
+.ceremony-col {
+  margin-bottom: 30px;
+}
+.wedding-section .col-inner {
+  padding: 60px 30px;
+  background: #f5f5f5;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.wedding-section .subtitle {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.wedding-section .intro {
+  margin-bottom: 30px;
+  color: #786b67;
+  text-align: justify;
+}
+
+.cols-wrapper p {
+  height: 126px;
+}
+
+@media (min-width: 1200px) {
+  .ceremony-col ul.meta-list {
+      margin-top: 40px;
+  }
+
+}
+
+.wedding-section .meta-list {
+    font-size: 16px;
+    display: inline-block;
+}
+
+
+
+.wedding-section .love-icon {
+  font-size: 32px;
+  width: 55px;
+  display: inline-block;
+  color: #f4af9c;
+  vertical-align: middle;
+}
+
+.wedding-section .meta-list li {
+    margin-bottom: 15px;
+}
+.green-theme .wedding-section .love-icon {
+  color: #367d90 !important;
+}
+
+.cols-wrapper strong {
+    color: #992233;
+}
