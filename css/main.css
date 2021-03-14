@@ -1872,7 +1872,7 @@ footer .copyright .block {
   position: absolute;
   content: ' ';
   width: 1px;
-  height: 65%;
+  height: 100%;
   background-color: #ccc;
   left: 30px;
 }
