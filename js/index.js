@@ -1,6 +1,6 @@
 const changeIndexHeaderBg = (srcs) => {
   setTimeout(() => {
-    var image = $('.parallax-slider');
+    const image = $('.parallax-slider');
     const currentSrc = image.attr('src');
 
     const index = srcs.indexOf(currentSrc);
@@ -11,9 +11,13 @@ const changeIndexHeaderBg = (srcs) => {
       newSrc = srcs[index + 1];
     }
 
-    image.fadeOut(50, function () {
-      image.attr('src', newSrc);
-      image.fadeIn(50);
+    const clone = image.clone().insertBefore(image);
+    setTimeout(() => {
+      clone.remove();
+    }, 1000);
+
+    image.fadeOut(400, () => {
+      image.attr('src', newSrc).fadeIn(400);
     });
 
     changeIndexHeaderBg(srcs);
