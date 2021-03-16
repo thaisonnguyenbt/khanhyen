@@ -823,6 +823,11 @@
     <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/index.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        const srcs = ['img/index/header-1.jpg', 'img/index/header-2.jpg', 'img/index/header-3.jpg'];
+        changeIndexHeaderBg(srcs);
+      });
+    </script>
   </body>
 </html>
