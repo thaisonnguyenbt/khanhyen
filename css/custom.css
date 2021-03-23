@@ -62,6 +62,12 @@
   padding-top: 6em;
 }
 
+.banner_bottom.wedding-album {
+  background-image: url(../img/wedding-album/footer.jpg);
+  height: 1300px;
+  padding-top: 900px;
+}
+
 span.banner-text_city {
   padding-top: 10px;
 }
@@ -109,17 +115,14 @@ a.link-map:hover {
 
 @media (min-width: 1200px) {
   .ceremony-col ul.meta-list {
-      margin-top: 40px;
+    margin-top: 40px;
   }
-
 }
 
 .wedding-section .meta-list {
-    font-size: 16px;
-    display: inline-block;
+  font-size: 16px;
+  display: inline-block;
 }
-
-
 
 .wedding-section .love-icon {
   font-size: 32px;
@@ -130,12 +133,12 @@ a.link-map:hover {
 }
 
 .wedding-section .meta-list li {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 .green-theme .wedding-section .love-icon {
   color: #367d90 !important;
 }
 
 .cols-wrapper strong {
-    color: #992233;
+  color: #992233;
 }
