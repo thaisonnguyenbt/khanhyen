@@ -19,32 +19,8 @@
   font-weight: normal;
   font-style: normal;
 }
-.letter-container {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.letter-img {
-  height: 1080px;
-  object-fit: cover;
-}
-.text1{
-  top: 380px;
-  color: #d8a449;
-  position: absolute;
-  right: 307px;
-  font-family: "VL Good Vibes Pro";
-  font-size: 24px;
-}
-.text2{
-  top: 612px;
-  color: #d8a449;
-  position: absolute;
-  right: 120px;
-  font-family: "VL Good Vibes Pro";
-  font-size: 24px;
+#canvas {
+  width: 100%;
+  max-width: 2160px;
+  max-height: 2780px;
 }
