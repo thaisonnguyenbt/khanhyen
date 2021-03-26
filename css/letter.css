@@ -1,0 +1,50 @@
+/* Fonts */
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon/icomoon_srf3rx.eot');
+  src: url('../fonts/icomoon/icomoon_srf3rx.eot#iefix') format('embedded-opentype'), url('../fonts/icomoon/icomoon_srf3rx.ttf') format('truetype'), url('../fonts/icomoon/icomoon_srf3rx.woff') format('woff'), url('../fonts/icomoon/icomoon_srf3rx.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Good Vibes Pro';
+  src: url('../fonts/GoodVibesPro/GoodVibesPro.eot');
+  src: url('../fonts/GoodVibesPro/GoodVibesPro.eot#iefix') format('embedded-opentype'), url('../fonts/GoodVibesPro/GoodVibesPro.woff') format('woff'), url('../fonts/GoodVibesPro/GoodVibesPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VL Good Vibes Pro';
+  src: url('../fonts/GoodVibesPro/VL_GOODVIBESPRO.OTF');
+  font-weight: normal;
+  font-style: normal;
+}
+.letter-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.letter-img {
+  height: 1080px;
+  object-fit: cover;
+}
+.text1{
+  top: 380px;
+  color: #d8a449;
+  position: absolute;
+  right: 307px;
+  font-family: "VL Good Vibes Pro";
+  font-size: 24px;
+}
+.text2{
+  top: 612px;
+  color: #d8a449;
+  position: absolute;
+  right: 120px;
+  font-family: "VL Good Vibes Pro";
+  font-size: 24px;
+}

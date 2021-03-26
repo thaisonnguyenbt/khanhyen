@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thiệp</title>
+    <!-- <link rel="stylesheet" href="css/main.css" /> -->
+    <link rel="stylesheet" href="css/letter.css" />
+</head>
+<body>
+	<div class="letter-container">
+		<div class="text1"><span id="text1">Gia đình Sơn & Tri</span></div>
+		<div class="text2"><span id="text2">Gia đình Sơn & Tri</span></div>
+		<img class="letter-img" src="img/thiep-nha-trai.jpg" alt="">
+	</div>
+    <script src="js/base64.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+		var myParams = location.search.split('params=')[1];
+		console.log(myParams);
+		var text = Base64.decode(myParams);
+		var span1 = document.getElementById('text1');
+		span1.textContent = text;
+		var span2 = document.getElementById('text2');
+		span2.textContent = text;
+      });
+    </script>
+</body>
+</html>
