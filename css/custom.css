@@ -67,6 +67,11 @@
   height: 1300px;
   padding-top: 900px;
 }
+.banner_bottom.pre-wedding {
+  background-image: url(../img/pre-wedding/footer.jpg);
+  height: 1300px;
+  padding-top: 900px;
+}
 
 span.banner-text_city {
   padding-top: 10px;
